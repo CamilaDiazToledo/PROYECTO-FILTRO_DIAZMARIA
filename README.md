@@ -15,6 +15,13 @@ Tiene como fin, ademas de ser presentada para el proyecto de filtro; Dar a conoc
 
 
 ### Instalaciones 
+Para ejecutar este proyecto localmente, sigue los siguientes pasos:
+
+1.Clona este repositorio: [Presiona aqui](https://github.com/CamilaDiazToledo/PROYECTO-FILTRO_DIAZMARIA)
+
+Navega al directorio del proyecto: cd PROYECTO-FILTRO_DIAZJHOAN
+
+Abre el proyecto con Visual Studio Code y utiliza la extensión Live Server para visualizarlo en un navegador compatible con HTML5 y CSS.
 Para poder ejecutar la pagina se debe dar click en la parte inferior izquierda del Visual Studio que se llama
 
 ```bash
