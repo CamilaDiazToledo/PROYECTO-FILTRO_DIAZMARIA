@@ -1,9 +1,9 @@
-# Landing Page de Sentidos
+# Landing Page de Sentidos :lips:
 En este repositorio podemos encontrar el código HTML y CSS para la landing page de Sentidos, un sex shop que ofrece una variedad de productos íntimos de alta calidad para la diversion adulta.
 Tiene como fin, ademas de ser presentada para el proyecto de filtro; Dar a conocer la marca y sus productos, para asi tener una mejor visivilidad al publico y redirigir a las personas al contacto con la empresa
 
 
-## Tabla de contenidos
+## Tabla de contenidos 📋
 | Indice | Titulo  |
 |--|--|
 | 1 | Contenido del Repositorio|
@@ -13,7 +13,7 @@ Tiene como fin, ademas de ser presentada para el proyecto de filtro; Dar a conoc
 | 5 | Secciones Principales |
 
 
-### Instalaciones 
+### Instalaciones 🔧
 Para ejecutar este proyecto localmente, sigue los siguientes pasos:
 
 1.Clona este repositorio: [Presiona aqui](https://github.com/CamilaDiazToledo/PROYECTO-FILTRO_DIAZMARIA)
@@ -27,11 +27,11 @@ Para poder ejecutar la pagina se debe dar click en la parte inferior izquierda d
 Go Live
 ```
 
-### Visualizaciòn
+### Visualizaciòn :eyes: 
 ![image](https://github.com/user-attachments/assets/23dec902-78e1-459f-bb8b-6564909b4307)
 
 
-### Estructura de la Landing Page 
+### Estructura de la Landing Page :moyai:
 La navegación superior proporciona acceso rápido a diferentes secciones de la página:
 
 - SERVICIO: Describe la mision y el servicio que se ofrece.
@@ -40,7 +40,7 @@ La navegación superior proporciona acceso rápido a diferentes secciones de la 
 - CARACTERISTICAS: Detalla las características de los productos como   beneficios o sus componentes.
 - CONTACTO: Información de contacto y exposicion del catalogo. se agregaron enlaces para más detalles.
 
-### Secciones Principales
+### Secciones Principales :top:
 
 1. Bienvenida y Presentación: Introduce la marca y su enfoque en el placer íntimo.
 2. Carrusel de Productos: Muestra una selección visual de productos los diversos productos que manejan.
@@ -52,9 +52,9 @@ La navegación superior proporciona acceso rápido a diferentes secciones de la 
 
 ¡Gracias por visitar la landing page de Sentidos!
 
-Hecho por [Maria Camila Dìaz Toledo](https://github.com/CamilaDiazToledo)
+Hecho por [Maria Camila Dìaz Toledo](https://github.com/CamilaDiazToledo) ✒️
 
->Este texto será una cita.
+
 
 > [!NOTE]
 >La landing page está diseñada para ser una pagina responsive responsive, asegurando una experiencia de usuario consistente en dispositivos móviles y de escritorio.
@@ -69,7 +69,7 @@ Hecho por [Maria Camila Dìaz Toledo](https://github.com/CamilaDiazToledo)
 
 
 > [!CAUTION]
-> Es super necesario el descargar Live Server para tenr visualizacion de la pagina
+> Es super necesario el descargar Live Server para tenr visualizacion de la pagina ya que sin esto no es posible ejecutrse
 
 
 
