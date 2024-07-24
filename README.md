@@ -1,4 +1,4 @@
-# Landing Page de Sentidos :lips:
+# Landing Page de Sentidos :raised_hands:
 En este repositorio podemos encontrar el código HTML y CSS para la landing page de Sentidos, un sex shop que ofrece una variedad de productos íntimos de alta calidad para la diversion adulta.
 Tiene como fin, ademas de ser presentada para el proyecto de filtro; Dar a conocer la marca y sus productos, para asi tener una mejor visivilidad al publico y redirigir a las personas al contacto con la empresa
 
