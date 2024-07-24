@@ -69,7 +69,7 @@ Hecho por [Maria Camila Dìaz Toledo](https://github.com/CamilaDiazToledo) ✒�
 
 
 > [!CAUTION]
-> Es super necesario el descargar Live Server para tenr visualizacion de la pagina ya que sin esto no es posible ejecutrse
+> Es super necesario el descargar Live Server para tenr visualizacion de la pagina ya que sin esto no es posible ejecutarse
 
 
 
