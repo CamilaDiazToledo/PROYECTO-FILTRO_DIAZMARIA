@@ -41,6 +41,8 @@ body {
 }
 
 
+/*MENU*/
+
 .fixed_nav {
     position: fixed;
     width: 100vw;
@@ -86,7 +88,7 @@ body {
 }
 
 
-
+/*PAGINA 1 PORTADA*/
 .page_1 {
     display: flex;
     justify-content:space-between; 
@@ -221,7 +223,7 @@ h1:hover {
 }
 
 
-
+/*PAGINA 2 RAZON DE SER*/
 .page_2 {
     display: flex;
     justify-content:flex-start; 
@@ -257,7 +259,7 @@ h1:hover {
 }
 
 
-
+/*
 @media (max-width: 700px){
     .page_2 {
         flex-direction: column; 
@@ -286,10 +288,33 @@ h1:hover {
         margin-top: 2vw;
     }
 }
+*/
+@media (max-width: 700px){
+    .page_2 {
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items:center;
+        height: 100vh;
+    }
 
+    .text_content_2{
+        font-size: 130%;
+        text-align:center;
+        line-height: 5vw;
+    }
 
+    .Sentidos_2 {
+        font-size: 0%; 
+        text-align: center; 
+    }
 
+    #carouselExampleAutoplaying{
+        width: 70vw;
+    }
+}
 
+/*PAGINA 3 PRODUCTOS DESTACADOS*/
 .page_3 {
     position: relative;
     display: flex;
@@ -426,18 +451,17 @@ h1:hover {
 
     .text-container {
         text-align: center; 
-        padding: 0 4vw; 
+        padding: 0 2vw; 
     }
 
     .slide-text {
-        font-size: 230%; 
-        margin-top: 1vw; 
+        font-size: 230%;  
         margin-bottom: 9vw;
     }
     .page_3
     .slide-paragraph {
         font-size: 130%; 
-        line-height: 7vw; /
+        line-height: 5vw; /
     }
 
     .slideshow {
@@ -448,8 +472,7 @@ h1:hover {
         place-items: center;
     }
 }
-
-
+/*PAGINA 4 BENEFICIOS*/
 .page_4 {
     display: flex;
     justify-content:space-around; 
@@ -483,7 +506,7 @@ h1:hover {
     color: #EFE3B8;
 }
 
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
     .page_4 {
         background-image: url('images/Fondos/celu/f_2.png'); 
         background-size: cover;
@@ -515,9 +538,32 @@ h1:hover {
         font-size: 100%; 
         padding: 3vw;
     }
+}*/
+@media (max-width: 700px){
+    .page_4{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagenes_beneficios{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #b1{
+        width: 46%;
+    }
+    #b2, #b3{
+        width: 51%;
+    }
+
+    .texto_beneficios{
+        font-size: 100%;
+    }
 }
 
-
+/*PAGINA 5 TESTIMONIOS*/
 .page_5 {
     position: relative;
     display: flex;
@@ -563,7 +609,7 @@ h1:hover {
     padding: 1vw 7vw 4vw;
     width: 40vw;
 }
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
     .page_5 {
         justify-content: center; 
         height: 100vh;
@@ -578,8 +624,30 @@ h1:hover {
         display: flex;
         flex-direction: column;
     }
+}*/
+
+@media (max-width: 700px) {
+    .page_5{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    #titulo_5{
+        font-size: 130%;
+    }
+    .testimonios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #t1, #t2{
+        width: 80%;
+
 }
 
+/*PAGINA 6 CONTACTO*/
 .page_6 {
     display: flex;
     justify-content:space-around; 
@@ -616,7 +684,7 @@ h1:hover {
     font-size: 2.5vw;
 }
 
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
     .page_6 {
         background-image: url('images/Fondos/celu/f_7.png');
         height: 100vh;
@@ -644,8 +712,37 @@ h1:hover {
     text-align: center;
     font-size: 24px;
     color: red;
+}*/
+
+@media (max-width: 700px){
+    .page_6 {
+        background-image: url('images/Fondos/celu/f_7.png');
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start; 
+        padding-top: 20px; 
+    }
+    
+    .parrafos {
+        font-size: 120%;
+        margin-top: 0; 
+    }    
+    #not-available{
+        display: none;
+    }
+    }
 }
-  
+
+
+
+
+
+
+
+
+/*RESPONSIVOS*/
   /* Estilos para tablets en orientación vertical */
 @media (min-width: 600px) and (max-width: 1400px) and (orientation: portrait) {
     main, nav {
@@ -677,5 +774,3 @@ h1:hover {
     display: block;
     }
 }
-
-
