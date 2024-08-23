@@ -1,0 +1,438 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'letra pagina1';
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    color: white;
+}
+
+/*FUENTES*/
+@font-face {
+    font-family: 'letra menu';
+    src: url('fonts/menu/Galyon-Book.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'letra pagina1';
+    src: url('fonts/1/Bon-Voyage-2.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'letra bienvenido';
+    src: url('fonts/0/GarbataTrial-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'letra titulos';
+    src: url('fonts/2/PPHatton-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'letra texto general' ;
+    src: url('fonts/3/Poppins-ExtraLight.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'letra sentidos';
+    src: url('fonts/sentidos/Le-Jour-Serif.ttf') format('truetype');
+}
+
+.celular{
+    display: none
+}
+/* Video Background */
+.video-background {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+#background-video {
+    height: 100%;
+    left: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* Menu and Catalog Title */
+.fixed_nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 100;
+}
+.fixed_menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 1vw 1vw;
+}
+.fixed_menu li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'letra menu';
+    font-size: 1.5vw;
+    padding: 1vw;
+    display: block;
+    transition: 0.5s ease;
+    line-height: 0;
+}
+.fixed_menu li a:hover {
+    text-decoration: underline;
+    font-size: 1.8vw;
+}
+
+.titulo_cat {
+    font-size: 1.5vw;
+    padding: 0.2vw 0vw 0vw;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    border-bottom: #fff solid 0.1vw;
+    background-color:  rgba(142, 4, 77, 0.8);
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+strong{
+    font-weight: 300;
+}
+
+.container_all{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px;
+
+}
+.container_carrito{
+    font-family: 'letra texto general';
+    background-color:  rgba(142, 4, 77, 0.7); ;
+    min-width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 3vw 3vw;
+    border-radius: 10px;
+    width: 20%;
+}
+.element_1{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 2vw 4vw;
+    background-color: rgba(249, 242, 180, 0.6);;
+    box-sizing: border-box;
+    width: 78%;
+    border-radius: 10px;
+    border: 0.2vw, solid, #fae7c4;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    margin: 1vw;
+    line-height: 0;
+    
+}
+.Nombre{
+    font-size: 1.3vw;
+    align-self: self-start;
+    align-content: center;
+    text-align: center;
+    margin: 1vw 0;
+    
+}
+.palabra_cantidad{
+    font-size: 1.5vw;
+}
+.cart-input{
+    width: 3vw;
+    border-radius: 5px;
+    font-size: 1vw;
+}
+.sub_total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cantidad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+.img_cat{
+    width: 10vw;
+}
+.datos{
+    background-color:rgba(249, 242, 180, 0.6);
+    min-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 2vw;
+    border-radius: 10px;
+    border: 0.2vw, solid, #fae7c4;
+    padding: 2vw;
+    
+}
+.Lista{
+font-size: 3vw;
+text-align: center;
+margin: 0;
+}
+
+
+
+.button {
+    background-color: #e12366;; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Esquinas redondeadas */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición suave en hover */
+    margin-bottom: 0.5vw;
+    width: 50%;
+    align-self: center;
+}
+.button:hover {
+    background-color: hsl(154, 74%, 52%); /* Color de fondo al pasar el cursor */
+}
+
+button:active {
+    background-color: #078500; /* Color de fondo al hacer clic */
+    transform: scale(0.98); /* Efecto de presionado */
+}
+.Sub_text_total{
+    font-size: 1.5vw;
+    
+}
+.sub_total_int{
+font-size: 1.3vw;
+list-style-type: none;
+}
+
+
+.sub_total_tabla2{
+font-size: 2.5vw;
+text-align: center;
+}
+.lista_compras,.lista_1,.sub_total_int ,.Nombre_lista{
+    margin: 0.2vw;
+    padding: 0;
+}
+
+.Sub_text_totaltabla2{
+    margin: 2vw;
+}
+.lista_compras{
+    font-size: 1.3vw;
+    list-style-type: none;
+    text-align: center;
+}
+.Sub_text_totaltabla2{
+    font-size: 2vw;
+}
+.sub_total_lista_2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Nombre_lista{
+    font-size: 1.3vw;
+}
+
+.img_footer_redes{
+    width: 3vw;
+
+}
+#face{
+    width: 1.4vw;
+}
+
+.siguenos{
+    text-align: center;
+}
+
+.red_social{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+@media(max-width:950px){
+
+    .fixed_nav{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fixed_menu{
+        flex-direction: column;
+        text-align: center;
+    }
+    .fixed_menu li a {
+        font-size: 1.8vw;
+    }
+    .titulo_cat{
+        padding-top: 3.5vw;
+    }
+
+
+.container_all{
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.container_carrito{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    min-width: 80vw;
+    background-color:  rgba(142, 4, 77, 0); 
+}
+
+.element_1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 3vw 10vw;
+    background-color:  rgba(142, 4, 77, 0.7); 
+}
+
+.img_cat{
+    width: 30vw;
+}
+.Nombre{
+    font-size: 4vw;
+    align-self: center;
+}
+
+.informacion{
+    align-items: center;
+    line-height: 0;
+}
+.palabra_cantidad{
+    font-size: 4vw;
+}
+.sub_total_int{
+    justify-content: center;
+    align-items: center;
+}
+.cart-input{
+    font-size: 3vw;
+    width: 6vw;
+    align-self: center;
+}
+.container_carrito{
+    min-width: 95vw;
+}
+.Sub_text_total{
+    font-size: 4vw;
+}
+.lista_1{
+    padding: 0vw;
+}
+.sub_total_int{
+    font-size: 3.5vw;
+    align-items: center;
+    }
+.button {
+    width: 80%;
+}
+.Lista{
+    font-size: 5vw;
+    
+    }
+
+.datos{
+    min-width: 92vw;
+}
+.lista_compras{
+    font-size: 4vw;
+}
+.sub_total_lista_2{
+    flex-direction: column;
+}
+.lista_compras,.lista_1,.sub_total_int ,.Nombre_lista{
+    margin: 0.5vw;
+}
+
+.Sub_text_totaltabla2{
+    margin: 2.5vw;
+}
+.Sub_text_totaltabla2{
+    font-size: 5.5vw;
+}
+
+.Nombre_lista{
+    font-size: 4vw;
+}
+.footer{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+.img_footer_redes{
+    width: 15vw;
+    }
+    .titulo_footer{
+    font-size: 5vw;
+    text-align: center;
+    }
+.sobre{
+    font-size: 3vw;
+    text-align: center;
+    width: 80vw;
+    }
+.img_footer{
+    width: 25vw;
+    }
+.img_footer_redes{
+    width: 5vw;
+
+}
+#face{
+    width: 2.5vw;
+}
+
+.siguenos{
+    text-align: center;
+    font-size: 6vw;
+}
+
+
+}
+

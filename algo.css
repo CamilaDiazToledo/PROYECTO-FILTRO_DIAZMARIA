@@ -1,0 +1,248 @@
+*{
+    /* font-family: "Roboto Serif", serif; */
+    font-family: "Pangolin", cursive;
+    font-size:10px;
+    color:#523120;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0px;
+    color: #523120;
+    background: linear-gradient(45deg,
+    #f7d596 , 
+    #f3d8a6 , 
+    #FAE7C4, 
+    #F7F2EC, 
+    #FFFFFF  );
+    animation:Change-color 8s ease infinite;
+    background-size: 400% 400%;
+}
+
+strong{
+    font-weight: 300;
+}
+
+.container_all{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px;
+
+}
+.container_carrito{
+    background-color:#e1ede9 ;
+    min-width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 0vw;
+    border-radius: 10px;
+    
+}
+.element_1{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 2vw;
+    background-color:  #f0dacd;
+    box-sizing: border-box;
+    width: 90%;
+    border-radius: 10px;
+    border: 0.2vw, solid, #fae7c4;
+}
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:self-start;
+    
+}
+.Nombre{
+    font-size: 3vw;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.palabra_cantidad{
+    font-size: 1.5vw;
+}
+.cart-input{
+    width: 3vw;
+    border-radius: 5px;
+    font-size: 1vw;
+}
+.sub_total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cantidad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+.img_cat{
+    width: 15vw;
+}
+.datos{
+    background-color:#f0dacd ;
+    min-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 0vw;
+    border-radius: 10px;
+    border: 0.2vw, solid, #fae7c4;
+    padding: 2vw;
+    
+}
+.Lista{
+font-size: 3vw;
+text-align: center;
+}
+
+.button {
+    background-color: #ffb89d; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Esquinas redondeadas */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición suave en hover */
+    margin-bottom: 0.5vw;
+    width: 50%;
+    align-self: center;
+}
+.button:hover {
+    background-color: #fca684; /* Color de fondo al pasar el cursor */
+}
+
+button:active {
+    background-color: #fca684; /* Color de fondo al hacer clic */
+    transform: scale(0.98); /* Efecto de presionado */
+}
+.Sub_text_total{
+    font-size: 1.5vw;
+}
+.sub_total_int{
+font-size: 1.3vw;
+list-style-type: none;
+}
+
+
+.sub_total_tabla2{
+font-size: 2.5vw;
+text-align: center;
+
+}
+.lista_compras{
+    font-size: 1.3vw;
+    list-style-type: none;
+    text-align: center;
+}
+.Sub_text_totaltabla2{
+    font-size: 2vw;
+}
+.sub_total_lista_2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Nombre_lista{
+    font-size: 1.3vw;
+}
+
+@media(max-width:950px){
+.container_all{
+    flex-direction: column;
+}
+
+.container_carrito{
+    
+    min-width: 80vw;
+}
+
+.img_cat{
+    width: 40vw;
+}
+.Nombre{
+    font-size: 7vw;
+    align-self: first baseline;
+}
+.palabra_cantidad{
+    font-size: 4vw;
+}
+.cart-input{
+    font-size: 3vw;
+    width: 6vw;
+}
+.container_carrito{
+    min-width: 95vw;
+}
+.Sub_text_total{
+    font-size: 4vw;
+}
+.sub_total_int{
+    font-size: 3.5vw;
+    }
+.button {
+    width: 80%;
+}
+.Lista{
+    font-size: 7vw;
+    
+    }
+
+    .datos{
+        min-width: 95vw;
+    }
+    .lista_compras{
+        font-size: 4vw;
+    }
+
+.Sub_text_totaltabla2{
+    font-size: 5.5vw;
+}
+
+.Nombre_lista{
+    font-size: 4vw;
+}
+.footer{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top: #523120;
+    border-style: dashed;
+    
+    }
+.img_footer_redes{
+    width: 15vw;
+    }
+    .titulo_footer{
+    font-size: 5vw;
+    text-align: center;
+    }
+.sobre{
+    font-size: 3vw;
+    text-align: center;
+    width: 80vw;
+    }
+.img_footer{
+    width: 25vw;
+    }
+
+}

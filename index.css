@@ -646,6 +646,46 @@ h1:hover {
         width: 80%;
 
 }
+}
+
+/*PAGINA 6 CONTACTO*/
+.page_6 {
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/Fondos/f7.png');
+    background-size:cover;
+    flex-direction: column;
+}
+
+.parrafos{
+    margin-top: 5vw;
+    font-family: 'letra texto general';
+    font-size: 2vw;
+    text-align: right;
+    align-self: end;
+    padding: 4.5vw;
+    color:#F2EFEC;
+}
+
+
+#boton1 a, #boton2 a, #boton3 a {
+    color: #F2EFEC;
+    text-decoration: none;
+    transition: 0.5s ease;
+    border-radius: 3vw;
+    background-color: rgba(255, 166, 49, 0.699);
+}
+
+#boton1 a:hover, #boton2 a:hover, #boton3 a:hover {
+    text-decoration: underline;
+    font-size: 2.5vw;
+}
+
+
+
 
 /*PAGINA 6 CONTACTO*/
 .page_6 {
@@ -684,6 +724,9 @@ h1:hover {
     font-size: 2.5vw;
 }
 
+#not-available{
+    display: none;
+}
 /*@media (max-width: 700px) {
     .page_6 {
         background-image: url('images/Fondos/celu/f_7.png');
@@ -732,8 +775,8 @@ h1:hover {
     #not-available{
         display: none;
     }
-    }
 }
+
 
 
 

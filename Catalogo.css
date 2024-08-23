@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'letra texto general';
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    color: white;
+}
+
+/*FUENTES*/
+@font-face {
+    font-family: 'letra menu';
+    src: url('fonts/menu/Galyon-Book.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'letra pagina1';
+    src: url('fonts/1/Bon-Voyage-2.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'letra bienvenido';
+    src: url('fonts/0/GarbataTrial-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'letra titulos';
+    src: url('fonts/2/PPHatton-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'letra texto general' ;
+    src: url('fonts/3/Poppins-ExtraLight.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'letra sentidos';
+    src: url('fonts/sentidos/Le-Jour-Serif.ttf') format('truetype');
+}
+
+.celular{
+    display: none
+}
+/* Video Background */
+.video-background {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+#background-video {
+    height: 100%;
+    left: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* Menu and Catalog Title */
+.fixed_nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 100;
+}
+.fixed_menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 1vw 1vw;
+}
+.fixed_menu li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'letra menu';
+    font-size: 1.5vw;
+    padding: 1vw;
+    display: block;
+    transition: 0.5s ease;
+    line-height: 0;
+}
+.fixed_menu li a:hover {
+    text-decoration: underline;
+    font-size: 1.8vw;
+}
+
+.titulo_cat {
+    font-size: 1.5vw;
+    padding: 0.2vw 0vw 0vw;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    border-bottom: #fff solid 0.1vw;
+    background-color:  rgba(142, 4, 77, 0.8);
+}
+
+.Sentidos_2 {
+    font-family: 'letra sentidos';
+    font-size: 2vw;
+    color: #F2EFEC;
+}
+
+.precio {
+    font-size: 1.5vw;
+    margin: 0px;
+}
+
+.button {
+    background-color: #bd0646;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 0.5vw;
+}
+.button:hover {
+    background-color: hsl(154, 74%, 52%);
+}
+
+button:active {
+    background-color: #078500;
+    transform: scale(0.98);
+}
+
+.container_foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.2vw solid rgb(250, 176, 176);
+    border-radius: 3vw;
+    margin: 3vw;
+    background-color:  rgba(142, 4, 77, 0.5);
+}
+
+.nombre_producto {
+    font-size: 1.5vw;
+    padding: 0;
+    margin: 0;
+}
+
+.descrip {
+    font-family: 'letra texto general';
+    font-size: 1vw;
+    padding: 0;
+    margin: 0;
+    width: 18vw;
+    text-align: center;
+    margin: 0.1vw;
+}
+
+.fotos_cat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1vw;
+}
+
+@media (max-width: 1200px) {
+
+    .fixed_nav {
+        justify-content: space-around;
+        flex-direction: column;
+        list-style: none;
+        margin: 1vw;
+        padding: 1vw 1vw;
+    }
+
+    .fixed_menu li{
+        padding: 1.5vw;
+    }
+    .fixed_menu li a {
+        font-size: 2vw;
+    }
+
+    .titulo_cat {
+        font-size: 2vw;
+        padding: 6vw 0vw 0.2vw;
+    }
+
+    .precio, .nombre_producto {
+        font-size: 2vw;
+    }
+
+    .descrip {
+        font-size: 1.5vw;
+        width: 25vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .fixed_menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fixed_menu li a {
+        font-size: 3vw;
+    }
+
+    .titulo_cat {
+        font-size: 2.5vw;
+    }
+    .Sentidos_2 {
+        font-size: 4.2vw;
+    }
+
+    .precio, .nombre_producto {
+        font-size: 3vw;
+    }
+
+    .descrip {
+        font-size: 2vw;
+        width: 35vw;
+    }
+
+    .fotos_cat {
+        flex-direction: column;
+        gap: 2vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .fixed_menu li a {
+        font-size: 4vw;
+    }
+
+    .titulo_cat {
+        font-size: 4vw;
+    }
+
+    .precio, .nombre_producto {
+        font-size: 4vw;
+    }
+
+    .descrip {
+        font-size: 2.5vw;
+        width: 45vw;
+    }
+
+    .button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
