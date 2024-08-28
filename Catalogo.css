@@ -77,6 +77,9 @@ body {
     margin: 0;
     padding: 1vw 1vw;
 }
+#logo_carro{
+    width: 40px;
+}
 .fixed_menu li a {
     color: white;
     text-decoration: none;
@@ -133,7 +136,7 @@ button:active {
     transform: scale(0.98);
 }
 
-.container_foto {
+.tarjeta_producto {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,13 +184,16 @@ button:active {
     .fixed_menu li{
         padding: 1.5vw;
     }
+    #logo_carro{
+        width: 30px;
+    }
     .fixed_menu li a {
         font-size: 2vw;
     }
 
     .titulo_cat {
         font-size: 2vw;
-        padding: 6vw 0vw 0.2vw;
+        padding: 3vw 0vw 0.2vw;
     }
 
     .precio, .nombre_producto {
@@ -211,6 +217,7 @@ button:active {
     }
 
     .titulo_cat {
+        padding: 12vw 0vw 0.2vw;
         font-size: 2.5vw;
     }
     .Sentidos_2 {

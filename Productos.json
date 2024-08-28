@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "nombre": "Multiorgasmos Electrizante",
+        "tipo": "Multiorgasmos",
+        "descripcion": "Lubricante con sensacion de hormigueo 5ml.",
+        "precio": 39000,
+        "img": "./images/Catalogo/electrizante.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Multiorgasmos Lyche",
+        "tipo": "Multiorgasmos",
+        "descripcion": "Lubricante con delicioso sabor a lyche y sensacion de cosquilleo 37ml.",
+        "precio": 37000,
+        "img": "./images/Catalogo/LYCHE.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Sensual Warnming",
+        "tipo": "Aceite",
+        "descripcion": "Aceites naturales con vitaminas, un sutil toque de pheromona y sensación calida.",
+        "precio": 28000,
+        "img": "./images/Catalogo/aceites.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Afer Sex",
+        "tipo": "Cuidado",
+        "descripcion": "Mantiene tu vagina sana, equilibra el pH y contiene extractos naturales calmantes de tu zona V.",
+        "precio": 46000,
+        "img": "./images/Catalogo/after.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Despigmentante",
+        "tipo": "Cuidado",
+        "descripcion": "Combate la hiperpigmentación, aclarando y homogenizando el color de la piel. Apto para todo tipo de piel.",
+        "precio": 42000,
+        "img": "./images/Catalogo/despigmentante.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Toy Cleaner",
+        "tipo": "Cuidado",
+        "descripcion": "Limpiador y Desinfectante, el más suave limpiador para el cuidado de tus juguetes 250ml.",
+        "precio": 39000,
+        "img": "./images/Catalogo/jabon.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Vela Sensual",
+        "tipo": "Aceite",
+        "descripcion": "De aceites naturales y vitaminas, con un sutil toque de pheromonas 25ml.",
+        "precio": 31000,
+        "img": "./images/Catalogo/velas.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Lubricante Chocolate",
+        "tipo": "Lubricante",
+        "descripcion": "Un sabor delicioso a Chocolate y un calor emocionante 30ml.",
+        "precio": 24000,
+        "img": "./images/Catalogo/chocolate.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Estrechante",
+        "tipo": "Estrechante",
+        "descripcion": "Mayor contacto durante la penetración, experimentando una relación más placentera 30ml.",
+        "precio": 37000,
+        "img": "./images/Catalogo/estrechante.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Lubricante Euphoria",
+        "tipo": "Lubricante",
+        "descripcion": "Contiene extractos de cannabis sativa para máxima estimulación y placer 30ml.",
+        "precio": 37000,
+        "img": "./images/Catalogo/euforia.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Lubricante C.Whisky",
+        "tipo": "Lubricante",
+        "descripcion": "Celebra con un sabor delicioso a Crema de whisky y déjate llevar por ese calor emocionante que surge en ti 30ml.",
+        "precio": 24000,
+        "img": "./images/Catalogo/whiskey.png"
+    },
+    {
+        "id": 12,
+        "nombre": "Lubricante Delay",
+        "tipo": "Lubricante",
+        "descripcion": "Retardante de eyaculación masculina. Fórmula de máxima potencia para prolongar el placer sexual 15ml.",
+        "precio": 36000,
+        "img": "./images/Catalogo/retardante.png"
+    },
+    {
+        "id": 13,
+        "nombre": "Anal Electrizante",
+        "tipo": "Lubricante",
+        "descripcion": "¡Con sensación de cosquilleo! Garantiza relajación en la zona y óptima lubricación para que le des rienda suelta a tu intimidad 30ml.",
+        "precio": 37000,
+        "img": "./images/Catalogo/anal electrizante.png"
+    },
+    {
+        "id": 14,
+        "nombre": "Lubricante Frio-Calor",
+        "tipo": "Lubricante",
+        "descripcion": "Experimenta cambios sensoriales de temperatura y alcanza múltiples orgasmos 30ml.",
+        "precio": 41000,
+        "img": "./images/Catalogo/frio-calor.png"
+    },
+    {
+        "id": 15,
+        "nombre": "Lubricante Trio",
+        "tipo": "Lubricante",
+        "descripcion": "Lubricante íntimo con sensación caliente, loción para masajes con rico aroma y delicioso sabor para el sexo oral 85ml.",
+        "precio": 40000,
+        "img": "./images/Catalogo/trio.png"
+    }
+]
