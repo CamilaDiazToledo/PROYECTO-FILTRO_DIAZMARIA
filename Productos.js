@@ -20,8 +20,8 @@ function crearTarjetasProductosInicio(productos){
             <img src="${producto.img}" class="img_cat" alt="...">
             <h3 class="nombre_producto">${producto.nombre}</h3>
             <p class="descrip">${producto.descripcion}</p>
-            <p class="precio">${producto.precio}</p>
-            <button class="button">Comprar</button>
+            <p class="precio">$${producto.precio.toLocaleString()}</p>
+            <button class="button">Agregar</button>
         `;
         contenedorTarjetas.appendChild(nuevoLubricante);
         nuevoLubricante.getElementsByTagName("button")[0].addEventListener("click",()=>agregarAlCarrito(producto))

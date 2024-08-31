@@ -64,6 +64,8 @@ body {
 }
 
 /* Menu and Catalog Title */
+
+
 .fixed_nav {
     position: fixed;
     width: 100vw;
@@ -180,15 +182,8 @@ strong{
     flex-direction: row;
 }
 
-.informacion{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: self-start;
-    margin: 1vw;
-    line-height: 0;
-    
-}
+
+
 .Nombre{
     font-size: 1.3vw;
     align-self: self-start;
@@ -219,7 +214,7 @@ strong{
 .img_cat{
     width: 10vw;
 }
-.datos{
+#totales{
     background-color:rgba(249, 242, 180, 0.6);
     min-width: 30vw;
     display: flex;
@@ -230,6 +225,7 @@ strong{
     border-radius: 10px;
     border: 0.2vw, solid, #fae7c4;
     padding: 2vw;
+    text-align: center;
     
 }
 .Lista{
@@ -352,7 +348,9 @@ text-align: center;
     background-color:  rgba(142, 4, 77, 0); 
 }
 
-.element_1{
+
+
+.tarjeta_producto {
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -361,7 +359,7 @@ text-align: center;
 }
 
 .img_cat{
-    width: 30vw;
+    width: 10vw;
 }
 .Nombre{
     font-size: 4vw;
@@ -405,7 +403,7 @@ text-align: center;
     
     }
 
-.datos{
+#totales{
     min-width: 92vw;
 }
 .lista_compras{
