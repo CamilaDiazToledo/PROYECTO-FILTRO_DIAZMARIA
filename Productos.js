@@ -30,12 +30,3 @@ function crearTarjetasProductosInicio(productos){
 
 
 obtenerDatos();
-
-
-    /*<section class="tarjeta_producto" class="catalogo30">
-        <img src="./images/Catalogo/electrizante.png"img_cat" alt="...">
-        <h3 class="nombre_producto">Multiorgasmos Electrizante</h3>
-        <p class="descrip">Lubricante con sensacion de hormigueo 5ml.</p>
-        <p class="precio">$39.000</p>
-        <button class="button">Comprar</button>
-    </section>*/
