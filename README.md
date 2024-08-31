@@ -11,6 +11,8 @@ Tiene como fin, ademas de ser presentada para el proyecto de filtro; Dar a conoc
 | 3 | Visualizaciòn  |
 | 4 | Estructura de la Landing Page |
 | 5 | Secciones Principales |
+| 6 | Secciones Catalogo |
+| 5 | Secciones Carrito de Compras |
 
 
 ### Instalaciones 🔧
@@ -39,6 +41,25 @@ La navegación superior proporciona acceso rápido a diferentes secciones de la 
 - SENTIDOS: Nombre de la marca con acceso rápido a la página de inicio.
 - CARACTERISTICAS: Detalla las características de los productos como   beneficios o sus componentes.
 - CONTACTO: Información de contacto y exposicion del catalogo. se agregaron enlaces para más detalles.
+  
+### Estructura del Catalogo:
+La navegación superior proporciona acceso rápido a diferentes filtros de la página:
+
+- LUBRICANTE: Muestra el catalogo de todos los productos que son lubricantes y agrega al carrito el producto a tan solo un click.
+- MULTIORGASMOS: Muestra el catalogo de todos los productos multiorgasmos y agrega al carrito el producto a tan solo un click.
+- ESTRECHANTE: Muestra el catalogo de los productos estrechantes y agrega al carrito el producto a tan solo un click.
+- ACEITES: Muestra el catalogo de todos los productos que son en aceite y agrega al carrito el producto a tan solo un click.
+- CUIDADOS: Muestra el catalogo todos los productos de cuidado y agrega al carrito el producto a tan solo un click.
+- TODOS: Muestra el catalogo de todos los productos y agrega al carrito el producto a tan solo un click.
+- CARRITO: Redirige a la pagina del carrito de compras.
+- INICIO: Redirige a la landing page.
+  
+### Estructura del Carrito:
+La navegación superior proporciona acceso rápido a Inicio y Catalogo:
+
+- PRODUCTOS: Muestra las tarjetas de todos los productos que fueron agregados al carrito y tiene la opcion de disminuir o aumenter su cantidad.
+- CADA VEZ QUE QUIERA AUMENTAR UN PRODUCTO EN LA PAGINAN DEL CARRITO PRIMERO DEBE DARLE CLICK AL BOTON + Y DESPUES REFRESCAR LA PAGINA PARA LA ACTUALIZACION DE LA INFO
+- TABLREO PAGAR: Muestra el total a pagar y la cantidad y permite reiniciar y limpuar la pantalla en el boton reiniciar o en el boton comprar se vacia y sale una alerta que dice "Gracias por tu compra"
 
 ### Secciones Principales :top:
 
@@ -70,6 +91,7 @@ Hecho por [Maria Camila Dìaz Toledo](https://github.com/CamilaDiazToledo) ✒�
 
 > [!CAUTION]
 > Es super necesario el descargar Live Server para tenr visualizacion de la pagina ya que sin esto no es posible ejecutarse
+> CADA VEZ QUE QUIERA AUMENTAR UN PRODUCTO EN LA PAGINAN DEL CARRITO PRIMERO DEBE DARLE CLICK AL BOTON + Y DESPUES REFRESCAR LA PAGINA PARA LA ACTUALIZACION DE LA INFO
 
 
 
